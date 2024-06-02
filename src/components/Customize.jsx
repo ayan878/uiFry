@@ -1,12 +1,11 @@
-
 import advantage from "../assets/features-icons/feature.png";
 import featureSpot from "../assets/features-icons/featureSpot.png";
 import { PiStarFour } from "react-icons/pi";
 
 function Customize() {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-2 px-4">
-      <div className="md:w-1/2 relative">
+    <div className="flex flex-col-reverse md:flex-row items-center gap-2 px-4 mb-8">
+      <div className="md:w-1/2 relative mt-4 md:mt-0">
         <img
           src={featureSpot}
           alt="feature spot"
@@ -20,11 +19,8 @@ function Customize() {
       </div>
       <div className="md:w-1/2">
         <div className="flex items-center space-x-2 mb-4">
-          <PiStarFour
-            className="w-8 h-8 rounded-full bg-red-500 p-2
-          text-white"
-          />
-          <h1 className="font-semibold "> Fully Customizable</h1>
+          <PiStarFour className="w-8 h-8 rounded-full bg-red-500 p-2 text-white" />
+          <h1 className="font-semibold">Fully Customizable</h1>
         </div>
         <p className="text-gray-600">
           Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
