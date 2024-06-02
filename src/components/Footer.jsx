@@ -80,7 +80,7 @@ function Footer() {
           </div>
         </div>
       </div>
-          <hr className="w-96 border mx-auto my-4" />
+          <hr className="w-96 items-center border mx-auto my-4" />
       <div className="mt-4 text-center text-sm text-gray-500">
         Copyright © {getCurrentYear()} Uifry.Com All Rights Reserved
       </div>
