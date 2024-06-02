@@ -12,10 +12,10 @@ function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center pr-12 py-8">
-      <div className="flex items-center justify-between gap-4">
+    <header className="w-full px-4 flex justify-between items-center py-4">
+      <div className="flex items-center justify-between gap-4 flex-wrap">
         <Link to="/">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="h-8" />
         </Link>
         <nav className="hidden md:flex gap-4">
           <NavLink
@@ -40,7 +40,7 @@ function Header() {
         Download
       </button>
       <button className="md:hidden" onClick={toggleMenu}>
-        {isOpen ? <FaTimes size={24}/> : <FaBars size={24} />}
+        {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
       </button>
       {isOpen && <Hamburger toggleMenu={toggleMenu} />}
     </header>
