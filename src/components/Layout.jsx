@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <div className="px-4 md:px-20">
+    <div className="pl-8 md:px-20">
       <Header />
       <Outlet />
       <Footer />
