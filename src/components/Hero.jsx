@@ -33,7 +33,7 @@ function Hero() {
             <IoPlayCircleOutline className="w-8 h-8" /> Watch Video
           </button>
         </div>
-        <div className="relative md:bottom-20">
+        <div className="relative bottom-10 md:bottom-20">
           <img src={strip} alt="strip" className="" />
         </div>
       </div>
