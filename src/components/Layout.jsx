@@ -1,21 +1,13 @@
-import { Outlet } from "react-router-dom";
-
 import Header from "./Header";
 import Footer from "./Footer";
-import Hero from "./Hero";
-import Features from "./Features";
-import FAQ from "./FAQ";
-
+import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
     <div className="pl-20">
-      <Header/>
-      <Hero/>
-      <Features/>
-      <FAQ/>
+      <Header />
       <Outlet />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

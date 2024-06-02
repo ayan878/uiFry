@@ -1,4 +1,5 @@
 import Advantage from "./Advantage";
+import Customize from "./Customize";
 import Feature from "./Feature";
 import Testimonials from "./Testimonials";
 
@@ -7,6 +8,7 @@ function Features() {
     <div>
       <Feature />
       <Advantage />
+      <Customize/>
       <Testimonials />
     </div>
   );

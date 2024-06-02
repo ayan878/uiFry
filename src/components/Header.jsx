@@ -40,7 +40,7 @@ function Header() {
         Download
       </button>
       <button className="md:hidden" onClick={toggleMenu}>
-        {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        {isOpen ? <FaTimes size={24}/> : <FaBars size={24} />}
       </button>
       {isOpen && <Hamburger toggleMenu={toggleMenu} />}
     </header>

@@ -3,8 +3,8 @@ import userGroup1 from "../assets/features-icons/user-group1.png";
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="p-8 flex flex-col items-center">
-      <div className="text-center mb-8 w-1/2">
+    <section id="testimonials" className="flex flex-col items-center">
+      <div className="text-center md:w-1/3">
         <p className="text-sm font-extralight text-red-500 uppercase">
           Testimonials
         </p>
@@ -12,7 +12,7 @@ function Testimonials() {
           What Our Users Say About Us?
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row items-center gap-8 w-full">
+      <div className="flex flex-col md:flex-row items-center gap-2 w-full">
         <div className="md:w-1/2 flex justify-center relative">
           <img src={userGroup} alt="user group" className="w-full h-auto" />
         </div>
@@ -27,7 +27,7 @@ function Testimonials() {
             diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor
             neque lorem sapien, suspendisse aliquam.”
           </p>
-          <div className="items-center gap-4">
+          <div className="items-center gap-2">
             <img
               src={userGroup1}
               alt="user"

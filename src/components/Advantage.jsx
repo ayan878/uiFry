@@ -5,7 +5,7 @@ import featureSpot from "../assets/features-icons/featureSpot.png"
 
 function Advantage() {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-8">
+    <div className="flex flex-col md:flex-row items-center gap-2">
       <div className="md:w-1/2">
         <p className="text-sm font-extralight text-red-500 uppercase mb-2">
           advantage
