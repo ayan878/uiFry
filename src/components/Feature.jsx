@@ -24,7 +24,7 @@ const features = [
 
 function Feature() {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-2 mb-4">
+    <div className="flex flex-col-reverse md:flex-row items-center gap-2 mb-4">
       <div className="md:w-1/2 relative">
         <img
           src={featureSpot}
