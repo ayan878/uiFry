@@ -8,7 +8,7 @@ const getCurrentYear = () => {
 
 function Footer() {
   return (
-    <footer className="bg-white py-8 px-12">
+    <footer className="bg-white py-4 px-12">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
         <div className="mb-6 md:mb-0">
           <img src={logo} alt="Uifry Logo" className="mb-4" />
