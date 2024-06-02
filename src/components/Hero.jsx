@@ -34,7 +34,7 @@ function Hero() {
           </button>
         </div>
         <div className="relative bottom-20">
-          <img src={strip} alt="strip" className="hidden md:block"/>
+          <img src={strip} alt="strip" className=""/>
         </div>
       </div>
       <div className="hidden md:block relative w-full top-[-40px]">
