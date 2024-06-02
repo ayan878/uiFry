@@ -34,10 +34,10 @@ function Hero() {
           </button>
         </div>
         <div className="relative bottom-20">
-          <img src={strip} alt="strip" className="hidden md:block"/>
+          <img src={strip} alt="strip" className="" />
         </div>
       </div>
-      <div className="hidden md:block relative w-full top-[-40px]">
+      <div className="hidden md:block relative w-full top-[-24px]">
         <img
           src={spiral}
           alt="IphoneSpiral"
@@ -64,6 +64,7 @@ function Hero() {
           className="absolute top-28 left-48 z-10 w-68 h-96"
         />
       </div>
+
     </div>
   );
 }
