@@ -9,10 +9,9 @@ import redSpot from "../assets/Group 35931.png";
 import iphoneSpot from "../assets/Group 35899.png";
 
 
-
 function Hero() {
   return (
-    <div className="flex pl-24 grid-cols-2">
+    <div className="flex grid-cols-2">
       <div className="flex flex-col gap-4">
         <h1 className="text-5xl font-bold capitalize tracking-tighter mt-8">
           make the best financial decisions
@@ -35,10 +34,10 @@ function Hero() {
           </button>
         </div>
         <div className="relative bottom-20">
-          <img src={strip} alt="strip"/>
+          <img src={strip} alt="strip" className="hidden md:block"/>
         </div>
       </div>
-      <div className=" relative w-full top-[-40px]">
+      <div className="hidden md:block relative w-full top-[-40px]">
         <img
           src={spiral}
           alt="IphoneSpiral"
